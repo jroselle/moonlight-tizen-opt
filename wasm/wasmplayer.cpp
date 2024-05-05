@@ -149,7 +149,7 @@ int height, int redrawRate, void* context, int drFlags) {
         "audio/webm; codecs=\"pcm\"",  // mimeType
         {},  // extradata (empty?)
         samsung::wasm::SampleFormat::kS16,
-        samsung::wasm::ChannelLayout::kStereo,
+        samsung::wasm::ChannelLayout::k5_1,	//UPDATE
         kSampleRate
       });
     if (add_track_result) {

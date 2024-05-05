@@ -200,7 +200,7 @@ bool audioSync, bool hdrEnabled, std::string codecVideo, std::string serverCodec
   m_StreamConfig.height = stoi(height);
   m_StreamConfig.fps = stoi(fps);
   m_StreamConfig.bitrate = stoi(bitrate);  // kilobits per second
-  m_StreamConfig.audioConfiguration = AUDIO_CONFIGURATION_STEREO;
+  m_StreamConfig.audioConfiguration = AUDIO_CONFIGURATION_51_SURROUND;	//UPDATE
   m_StreamConfig.streamingRemotely = STREAM_CFG_AUTO;
   m_StreamConfig.packetSize = 1392;
   m_StreamConfig.supportsHevc = true;

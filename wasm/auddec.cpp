@@ -8,7 +8,7 @@ using std::chrono_literals::operator""s;
 using std::chrono_literals::operator""ms;
 using TimeStamp = samsung::wasm::Seconds;
 
-#define MAX_CHANNEL_COUNT 2
+#define MAX_CHANNEL_COUNT 6	//UPDATE
 #ifdef SLOW_AUDIO_DECODER
 #define FRAME_SIZE 960
 #else
